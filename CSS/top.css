@@ -1,0 +1,41 @@
+@charset "utf-8";
+/* CSS Document */
+header{
+	height: 80px;
+	background: #8c8c8c;
+}
+/* 快速导航栏 */
+.shortcut{
+	background:#e3e4e5;
+	height: 32px;
+	border-bottom: 1px solid #ddd;
+	line-height:32px;
+	color: #999;
+}
+.city{
+	margin-left: 200px;
+}
+.shortcut li{
+	float: left;
+}
+.space{/*小竖线*/
+	width: 1px;
+	height: 10px;
+	background: #ccc;
+	margin: 12px 12px 0;
+}
+.shortcut i{/*最多三级*/
+	font-family:"icomoon";
+	font-style: normal;/*取消倾斜*/
+	color: #f10215;
+}
+.mobile{/*限制下方的absolute*/
+	position: relative;
+}
+.mobile img{
+	position:absolute;
+	left: -3px;
+	top: 28px;
+	border: 1px #ccc solid;
+	padding: 3px;
+}
